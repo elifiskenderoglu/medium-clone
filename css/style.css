@@ -1,0 +1,58 @@
+.font {
+    font-family: 'Playfair Display', serif;
+    color:black;
+}
+.a {
+    font-size: 90px;
+}
+.b{
+    font-size: 25px;
+}
+.c{
+    flex-direction: column;
+}
+.d{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    background-color: #ffc017;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.icon-tabler-letter-m {
+    animation: 1.5s updateOpacity ease-out infinite;
+  }
+  
+  @keyframes updateOpacity {
+    0% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+   .cc {
+    animation: 1s updateOpacity ease-out infinite;
+}
+   .e {
+    animation: 3s updateOpacity ease-out infinite;
+   }
+   .f {
+    animation: 0.5s updateOpacity ease-out infinite;
+   }
+   .button
+  {
+    
+    border-radius: 100px;
+    padding: 2px 8px;
+   
+    font-size: 13px;
+  color: rgba(117, 117, 117, 1);
+  background-color:rgba(242, 242, 242, 1) ;
+  position: relative;
+  
+  box-sizing: inherit;
+  font-weight: 400;
+  }
